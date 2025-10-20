@@ -50,7 +50,7 @@ class CategoriesController extends Controller
     }
 
 
-    public function store(Request $request)
+    public function store(CategoryRequest $request)
     {
         //
         $request->validated();
